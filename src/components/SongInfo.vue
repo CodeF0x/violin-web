@@ -16,12 +16,41 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .song-info {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--text-color);
   font-size: 0.9em;
+  grid-row: 3;
+}
+
+#song-title,
+#song-artist {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#volume-wrapper {
+  position: absolute;
+  right: 10px;
+}
+
+#volume-button {
+  float: left;
+  height: 20px;
+  width: 20px;
+  background-image: url('../../assets/volume.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+input[type='range'] {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
 }
 </style>

@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .control-con {
   grid-row: 1;
   display: grid;
@@ -27,7 +27,6 @@ export default {
 #play,
 #next-song,
 #repeat {
-  -webkit-app-region: no-drag;
   height: 25px;
   width: 25px;
   cursor: pointer;
@@ -40,27 +39,27 @@ export default {
 
 #shuffle {
   grid-column: 1;
-  background-image: url('/assets/shuffle.png');
+  background-image: url('../../assets/shuffle.png');
 }
 
 #last-song {
   grid-column: 2;
-  background-image: url('/assets/backward.png');
+  background-image: url('../../assets/backward.png');
 }
 
 #play {
   grid-column: 3;
-  background-image: url('/assets/play.png');
+  background-image: url('../../assets/play.png');
 }
 
 #next-song {
   grid-column: 4;
-  background-image: url('/assets/forward.png');
+  background-image: url('../../assets/forward.png');
 }
 
 #repeat {
   grid-column: 5;
-  background-image: url('/assets/repeat.png');
+  background-image: url('../../assets/repeat.png');
 }
 
 #next-song:hover,

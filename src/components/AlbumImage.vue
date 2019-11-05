@@ -8,7 +8,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #album-img {
   grid-column: 1;
   grid-row: 4;
