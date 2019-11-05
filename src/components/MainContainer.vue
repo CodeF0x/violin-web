@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import BottomBg from "./BottomBg";
+import BottomBg from './BottomBg';
 
 export default {
-  name: "MainContainer",
+  name: 'MainContainer',
   components: {
     BottomBg
   }
