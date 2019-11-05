@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bottom-bg">
     <ControlCon></ControlCon>
     <ProgressCon></ProgressCon>
     <SongInfo></SongInfo>
@@ -20,3 +20,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.bottom-bg {
+  grid-row: 4;
+  grid-column: 2/5;
+  background-color: var(--con-color);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+</style>
