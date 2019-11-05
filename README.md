@@ -1,24 +1,2 @@
-# violin-web
+### Right now, this repository is more an experiment than something really meant to go into production. Please have a look at [Violin](https://github.com/CodeF0x/violin) instead.
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
