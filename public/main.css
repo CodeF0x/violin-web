@@ -1,19 +1,23 @@
 /** General styles go here */
 
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 :root {
-    --bg-color: #001628;
-    --con-color: #002a4d;
-    --text-color: #f2f2f2;
-    --btn-color: #db2828;
-    --btn-color-hover: #c42121;
-    --text-color-hover: #cfcfcf;
-    --input-color: #00335d;
-    --link-color: #2185d0;
-    --song-con-hover: #ffc7b3;
-    --song-con-active: #fe9a76;
-  }
+  --bg-color: #001628;
+  --con-color: #002a4d;
+  --text-color: #f2f2f2;
+  --btn-color: #db2828;
+  --btn-color-hover: #c42121;
+  --text-color-hover: #cfcfcf;
+  --input-color: #00335d;
+  --link-color: #2185d0;
+  --song-con-hover: #ffc7b3;
+  --song-con-active: #fe9a76;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}

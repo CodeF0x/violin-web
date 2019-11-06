@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .bottom-bg {
   grid-row: 4;
   grid-column: 2/5;
