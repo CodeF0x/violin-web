@@ -13,7 +13,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
 .progress-con {
   grid-row: 2;
   display: flex;
