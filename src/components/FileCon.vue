@@ -27,11 +27,9 @@ export default {
 
 .creator {
   font-size: 0.7rem;
-  color: var(--text-color);
 }
 
 #creator-link {
-  color: var(--link-color);
   text-decoration: none;
   -webkit-app-region: no-drag;
 }

@@ -21,7 +21,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--text-color);
   font-size: 0.9em;
   grid-row: 3;
 }
