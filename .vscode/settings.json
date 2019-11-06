@@ -1,5 +1,11 @@
 {
-    "javascript.preferences.quoteStyle": "single",
-    "typescript.preferences.quoteStyle": "single",
-    "editor.formatOnSave": true
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+      "semi": false
+    }
+  }
 }
